@@ -2,7 +2,7 @@ document.addEventListener("click", (e) => {
     if (e.target.tagName === "BUTTON"){
       const cage=document.createElement("div");
       cage.classList.add("cage");
-      cage.style.position = "absolute";
+      
 
       const heading = document.createElement("h2");
       heading.innerText = "OOOPS!";
