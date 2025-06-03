@@ -17,7 +17,7 @@ document.addEventListener("click", (e) => {
 
       setTimeout(() => {
         cage.remove();
-      }, 3000);
+      }, 1000);
     }
   else{
     const butterfly = document.createElement("div");
