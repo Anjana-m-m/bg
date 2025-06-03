@@ -7,7 +7,7 @@ document.addEventListener("click", (e) => {
       cage.style.top = `${e.clientY -100}px`;
 
       const heading = document.createElement("h2");
-      heading.innerText = "OOPS!";
+      heading.innerText = "OOOPS!";
       heading.style.fontSize = "10px";
       heading.style.textAlign = "center";
       heading.style.color = "#fff";
