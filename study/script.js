@@ -9,7 +9,7 @@ document.addEventListener("click", (e) => {
       heading.style.fontSize = "10px";
       heading.style.textAlign = "center";
       heading.style.color = "#fff";
-      heading.style.padding="100px";
+      heading.style.padding="1000px";
 
       cage.appendChild(heading);
       document.body.appendChild(cage);
@@ -17,7 +17,7 @@ document.addEventListener("click", (e) => {
 
       setTimeout(() => {
         cage.remove();
-      }, 8000);
+      }, 3000);
     }
   else{
     const butterfly = document.createElement("div");
