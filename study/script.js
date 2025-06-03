@@ -5,10 +5,10 @@ document.addEventListener("click", (e) => {
       
 
       const heading = document.createElement("h2");
-      heading.innerText = "OOOPS!";
-      heading.style.fontSize = "10px";
-      heading.style.textAlign = "center";
-      heading.style.color = "white";
+      heading.innerText = "OOPS!";
+  heading.style.color = "white";
+  heading.style.textAlign = "center";
+  heading.style.marginTop = "40vh";
 
       cage.appendChild(heading);
       document.body.appendChild(cage);
