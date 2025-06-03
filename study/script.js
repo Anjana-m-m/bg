@@ -9,7 +9,6 @@ document.addEventListener("click", (e) => {
       heading.style.fontSize = "10px";
       heading.style.textAlign = "center";
       heading.style.color = "#fff";
-      heading.style.padding="1000px";
 
       cage.appendChild(heading);
       document.body.appendChild(cage);
