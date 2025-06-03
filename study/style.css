@@ -61,7 +61,7 @@
   height: 100vh;
   background-color: rgba(0, 0, 0, 1);
       display: flex;
-      justifyContent: center;
-      alignItems: center;
+      justify-content: center;
+      align-items: center;
   }
   
